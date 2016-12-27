@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import fetch from 'isomorphic-fetch';
 import {Filter} from './src/filter'
 
 // Note: this is the entry point for the entire application
@@ -10,3 +9,4 @@ import {Filter} from './src/filter'
 
 // step 2: in case you're not familiar with rendering a top level react component, you'll need some code that looks
 // like this: `ReactDOM.render(<Filter />, document.querySelector('.content'));` somewhere in the application
+ReactDOM.render(<Filter />, document.querySelector('.content'));

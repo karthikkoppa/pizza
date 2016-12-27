@@ -10,9 +10,11 @@
   "author": "John Deere",
   "license": "Copyright © 2016 Deere & Company",
   "dependencies": {
+    "chance": "^1.0.4",
     "isomorphic-fetch": "2.2.1",
     "react": "15.3.2",
-    "react-dom": "15.3.2"
+    "react-dom": "15.3.2",
+    "sinon": "^1.17.6"
   },
   "devDependencies": {
     "babel-core": "6.17.0",
